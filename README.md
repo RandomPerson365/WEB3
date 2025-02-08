@@ -1,6 +1,6 @@
 # Demystifying Exploitable Bugs in Smart Contracts <a href="https://openai.com/product/dall-e-2"><img src="resources/logo.png" alt="Logo" align="right" width="82"/></a>
 
-[![integrity validation]
+
 <p>
 <a href="papers/icse23.pdf"> <img title="" src="resources/paper.jpg" alt="loading-ag-167" align="right" width="200"></a>
 

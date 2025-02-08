@@ -12,12 +12,6 @@ Our initial research suggests that a notable proportion of exploitable bugs in s
 
 <br>
 
-> 𝙰 𝚜𝚒𝚐𝚗𝚒𝚏𝚒𝚌𝚊𝚗𝚝 𝚗𝚞𝚖𝚋𝚎𝚛 𝚘𝚏 𝚎𝚡𝚙𝚕𝚘𝚒𝚝𝚊𝚋𝚕𝚎 𝚋𝚞𝚐𝚜 𝚒𝚗 𝚜𝚖𝚊𝚛𝚝 𝚌𝚘𝚗𝚝𝚛𝚊𝚌𝚝𝚜 𝚏𝚊𝚕𝚕 𝚞𝚗𝚍𝚎𝚛 𝚝𝚑𝚎 𝚌𝚊𝚝𝚎𝚐𝚘𝚛𝚢 𝚘𝚏 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚊𝚕 𝚋𝚞𝚐𝚜, 𝚠𝚑𝚒𝚌𝚑 𝚌𝚊𝚗𝚗𝚘𝚝 𝚋𝚎 𝚍𝚎𝚝𝚎𝚌𝚝𝚎𝚍 𝚞𝚜𝚒𝚗𝚐 𝚜𝚒𝚖𝚙𝚕𝚎 𝚊𝚗𝚍 𝚐𝚎𝚗𝚎𝚛𝚊𝚕 𝚘𝚛𝚊𝚌𝚕𝚎𝚜.
-
-<br>
-
-Please be aware that __this repository is currently undergoing active development, and the data may change over time due to ongoing code4rena contests__.
-
 ## Dataset Description
 
 ### Folder Structure
@@ -37,8 +31,6 @@ We classify the surveyed bugs into three main categories based on their nature:
 + Bugs with simple and general testing oracles (denoted by __L__)
 + Bugs that require high-level semantical oracles (denoted by __S__)
 
-As classifying functional bugs can be ambiguous, we welcome suggestions to improve our classification standards. You can find more detailed label information in our [documentation](docs/standard.md), and we encourage you to refer to our current classification [guidelines](docs/standard.md#process) for more information.
-
 ## Recommended Security Analysis Tools
 
 Our goal is to create a comprehensive list of vulnerability detection techniques that will be a valuable resource for Web3 developers and security analysts. We will focus on two main categories:
@@ -46,7 +38,7 @@ Our goal is to create a comprehensive list of vulnerability detection techniques
 + Vulnerability detection techniques that prioritize the development of semantical oracles for smart contracts.
 + Publicly available security analysis tools that can be used for auditing
 
-<span style="color:red"><strong>We warmly welcome any additional suggestions or contributions from the community to help expand and improve the list. </strong></span> 
+
 
 ### Vulnerability Detection with Automatic Semantical Oracles
 
@@ -110,55 +102,4 @@ This section will include open-source techniques that are publicly available and
 | [Common Fork Bugs](https://github.com/YAcademy-Residents/defi-fork-bugs) | Exploit Dataset |
 </details>
 
-## Contributing
 
-We welcome all types of contributions to our project, including but not limited to:
-
-+ <span style="color:red"><strong>Suggesting new reference techniques for smart contract security analysis.</strong></span>
-+ Adding newly disclosed code4rena contest bugs.
-+ Suggesting improvements to the classification standard
-+ Correcting mislabeled bugs
-+ Filling in any missing defillama entities in the `results/contests.csv`
-
-Further details can be found in our [contribution guidelines](docs/contribution.md).
-
-## Cite
-
-If you are using our dataset for an academic publication, we would really appreciate a citation to the following work:
-
-```
-@inproceedings{DBLP:conf/icse/ZhangZXL23,
-  author       = {Zhuo Zhang and
-                  Brian Zhang and
-                  Wen Xu and
-                  Zhiqiang Lin},
-  title        = {Demystifying Exploitable Bugs in Smart Contracts},
-  booktitle    = {{ICSE}},
-  pages        = {615--627},
-  publisher    = {{IEEE}},
-  year         = {2023}
-}
-```
-
-## Clarification
-
-Please refer to our classification [documentation](docs/classification.md).
-
-## Acknowledgments
-
-We would like to extend our sincere thanks to [code4rena](https://code4rena.com/) for making this valuable information publicly available.
-
-<details>
-<summary>Our appreciation also goes out to the following contributors for their valuable input.</summary></br>
-
-+ [__ItsNio__](https://github.com/niothefirst)
-+ [__Wen Xu__](https://github.com/tarafans)
-+ [__Patrick Collins__](https://github.com/PatrickAlphaC)
-+ [__Meng Xu__](https://twitter.com/meng_xu_cs)
-+ [__y3s0n__](https://github.com/CharesFang)
-+ [__William Aaron Cheung__](https://github.com/Troublor)
-+ [__soaphorn__](https://github.com/soaphorn)
-+ [__Fabio Gritti__](https://github.com/degrigis)
-+ [__Yannick__](https://twitter.com/MillusPontius)
-
-</details>

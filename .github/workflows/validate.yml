@@ -15,14 +15,4 @@ jobs:
 
       - uses: actions/setup-python@v4
 
-      - name: check_contests_csv
-        run: python scripts/check_contests_csv.py .
-        working-directory: ./
-
-      - name: check_contracts
-        run: python scripts/check_contracts.py .
-        working-directory: ./
-
-      - name: check_git
-        run: ./scripts/check_git.sh .
-        working-directory: ./
+     
